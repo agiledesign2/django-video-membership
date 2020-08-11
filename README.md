@@ -4,11 +4,11 @@ This project shows how to create a video membership website using Django and Str
 
 ## Getting Started
 
-Create a stripe account and put your stripe publishable key and secret key inside `settings.py` as well as your publishable key inside `checkout.js` in the static folder. Follow the [tutorial](https://youtu.be/zu2PBUHMEew) for guidance.
+Create a stripe account and put your stripe publishable key and secret key inside `settings.py` as well as your publishable key inside `checkout.js` in the static folder. Follow the [Demo Site](https://base-blog.herokuapp.com/) for guidance.
 
 **Note** that you will need to create your own Stripe plans in your dashboard and link those plan ID's in your Django admin.
 
-[![alt text](https://github.com/justdjango/video-membership/blob/master/thumbnail.png "Logo")](https://youtu.be/zu2PBUHMEew)
+[![alt text](https://github.com/agiledesign2/django-video-membership/blob/master/thumbnail.png "Logo")](https://base-blog.herokuapp.com/)
 
 ## Latest update of the code
 
@@ -16,10 +16,10 @@ Stripe changed their API to no longer allow a source being passed into a subscri
 
 ## Where to find us
 
-Like us on [Facebook](https://www.facebook.com/justdjangocode/)
+Like us on [Linkedin](www.linkedin.com/in/agiledesign2)
 
-Follow us on [Instagram](https://www.instagram.com/justdjangocode/)
+Follow us on [Twitter](https://twitter.com/pythondesign1)
 
-Subscribe to our [YouTube](https://www.youtube.com/channel/UCRM1gWNTDx0SHIqUJygD-kQ) Channel
+Subscribe to our [Demo Site](https://base-blog.herokuapp.com/)
 
-Or visit our [Website](https://www.justdjango.com)
+Or visit our [Website](https://agiledesign2.github.io/)
