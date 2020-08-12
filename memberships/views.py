@@ -65,8 +65,8 @@ class MembershipSelectView(LoginRequiredMixin, ListView):
 
         if user_membership.membership == selected_membership:
             if user_subscription is not None:
-                messages.info(request, """You already have this membership. Your
-                              next payment is due {}""".format('get this value from stripe'))
+                messages.info(request, f"""You already have this membership. Your
+                              next payment is due {'get this value from stripe'}""")
                 return HttpResponseRedirect(request.META.get('HTTP_REFERER'))
 
         # assign to the session
